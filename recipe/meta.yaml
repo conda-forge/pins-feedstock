@@ -20,7 +20,7 @@ requirements:
     - python >=3.7
   run:
     - appdirs <2.0.0
-    - fsspec >=0.8.0
+    - fsspec >=0.8.0,<2023.9.0
     - humanize >=1.0.0
     - importlib-metadata >=4.4
     - importlib-resources >=1.3
