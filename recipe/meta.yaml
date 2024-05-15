@@ -43,12 +43,6 @@ test:
   requires:
     - pip
 
-test:
-  imports:
-    - pins
-  requires:
-    - pip
-
 about:
   home: https://github.com/rstudio/pins-python
   summary: Publish data sets, models, and other python objects, making it easy to share them across projects and with your colleagues.
