@@ -1,5 +1,5 @@
 {% set name = "pins" %}
-{% set version = "0.8.4" %}
+{% set version = "0.8.6" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pins-{{ version }}.tar.gz
-  sha256: df8d7d92d5dc1696964a471cafbe780a667ba324777c15bd6ab8d01815474339
+  sha256: 49ba7b7bde43ad384b31bab58687ccf2d27d4aca434824c7696bb2d6ca3a398b
 
 build:
   noarch: python
@@ -40,12 +40,6 @@ test:
     - pins
   commands:
     - pip check
-  requires:
-    - pip
-
-test:
-  imports:
-    - pins
   requires:
     - pip
 
